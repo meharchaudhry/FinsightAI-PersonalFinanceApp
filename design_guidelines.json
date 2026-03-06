@@ -1,0 +1,159 @@
+{
+  "identity": {
+    "persona": "E1: The Anti-AI Designer",
+    "core_principles": [
+      "Fusion over Imitation: Fintech meets Botanical Magazine.",
+      "Emotion First: The relief of organized chaos.",
+      "Content is King: Receipts are the artifacts; treat them like gallery items.",
+      "Zoom In: Focus on the textures of data.",
+      "Negative Space: Luxurious padding to reduce financial anxiety."
+    ],
+    "anti_patterns": [
+      "No 'SaaS Blue' primary colors.",
+      "No generic 'Inter' for headings.",
+      "No 20%+ gradients.",
+      "No centered layouts everywhere."
+    ]
+  },
+  "typography": {
+    "strategy": "The 'Old Money Tech' - Serif Headings + Clean Sans Body",
+    "fonts": {
+      "heading": {
+        "family": "Playfair Display, serif",
+        "usage": "H1, H2, Hero Sections",
+        "import_url": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap",
+        "classes": "font-serif tracking-tight font-medium"
+      },
+      "body": {
+        "family": "Manrope, sans-serif",
+        "usage": "Paragraphs, UI Elements, Data Tables",
+        "import_url": "https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap",
+        "classes": "font-sans tracking-normal"
+      },
+      "mono": {
+        "family": "JetBrains Mono, monospace",
+        "usage": "Receipt Data, Numbers, Totals",
+        "import_url": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap",
+        "classes": "font-mono text-sm tracking-wide"
+      }
+    },
+    "scale": {
+      "h1": "text-5xl md:text-7xl leading-[0.95]",
+      "h2": "text-4xl md:text-5xl leading-tight",
+      "h3": "text-2xl md:text-3xl",
+      "body": "text-base md:text-lg leading-relaxed",
+      "caption": "text-xs uppercase tracking-widest opacity-60"
+    }
+  },
+  "colors": {
+    "theme": "Archetype 1: ORGANIC & EARTHY (Refined)",
+    "palette": {
+      "background": "#F5F5F2",
+      "foreground": "#1C1C1A",
+      "primary": "#2E3B2F",
+      "primary_foreground": "#F0F2EF",
+      "secondary": "#E6E4DD",
+      "secondary_foreground": "#2E3B2F",
+      "accent": "#C45D40",
+      "accent_foreground": "#FFFFFF",
+      "muted": "#E6E4DD",
+      "muted_foreground": "#6B6960",
+      "card": "#FFFFFF",
+      "card_foreground": "#1C1C1A",
+      "border": "#DQD9D0",
+      "input": "#E6E4DD",
+      "ring": "#2E3B2F"
+    },
+    "chart_colors": {
+      "chart_1": "#2E3B2F",
+      "chart_2": "#C45D40",
+      "chart_3": "#D4A373",
+      "chart_4": "#8A9A5B",
+      "chart_5": "#6B6960"
+    },
+    "gradients": {
+      "subtle": "linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(245,245,242,1) 100%)",
+      "mesh": "radial-gradient(at 40% 20%, hsla(28,100%,74%,1) 0px, transparent 50%), radial-gradient(at 80% 0%, hsla(189,100%,56%,1) 0px, transparent 50%), radial-gradient(at 0% 50%, hsla(340,100%,76%,1) 0px, transparent 50%)"
+    }
+  },
+  "layout": {
+    "spacing_system": "Generous. Use p-8 or p-12 for containers.",
+    "container_width": "max-w-7xl mx-auto px-6 md:px-12",
+    "grid_strategy": {
+      "dashboard": "Bento Grid (Mode A)",
+      "list": "Vertical Stack with massive padding",
+      "gap": "gap-6 md:gap-8"
+    },
+    "border_radius": {
+      "default": "rounded-xl",
+      "card": "rounded-2xl",
+      "button": "rounded-lg"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg hover:shadow-xl transition-all duration-300 font-medium px-8 py-3",
+      "secondary": "bg-secondary text-secondary-foreground hover:bg-secondary/80 border border-transparent font-medium px-6 py-3",
+      "outline": "border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground font-bold px-6 py-3"
+    },
+    "cards": {
+      "style": "Flat with 1px border. No shadow by default. Shadow-lg on hover.",
+      "classes": "bg-card border border-border/60 hover:border-primary/20 transition-all duration-300 p-8"
+    },
+    "inputs": {
+      "style": "Solid background, no border until focus.",
+      "classes": "bg-secondary/50 border-0 focus:ring-2 focus:ring-primary/20 h-12 px-4 rounded-lg"
+    },
+    "charts": {
+      "library": "Recharts (Shadcn wrapper)",
+      "style": "Minimalist axes, custom tooltips, organic colors."
+    }
+  },
+  "visual_enhancers": {
+    "texture": "Add a subtle 'noise' overlay to the background to simulate paper.",
+    "glassmorphism": "Use for sticky headers only. backdrop-blur-xl bg-background/80 border-b border-border/20.",
+    "shadows": {
+      "layered": "shadow-[0_2px_4px_rgba(0,0,0,0.02),0_8px_16px_rgba(0,0,0,0.04)]"
+    },
+    "motion": {
+      "library": "framer-motion",
+      "effects": [
+        "Receipt 'slide up' on entry",
+        "Staggered list items",
+        "Button scale on press (0.98)"
+      ]
+    }
+  },
+  "images": {
+    "hero": {
+      "url": "https://images.unsplash.com/photo-1620051524347-854568bb2e0f?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "alt": "Minimalist workspace with coffee",
+      "style": "Full width, parallax scroll, overlay with gradient-to-t from-background"
+    },
+    "login_bg": {
+      "url": "https://images.unsplash.com/photo-1686266339981-83a4b2855001?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "alt": "Coffee cup next to receipt/card",
+      "style": "Split screen layout, image on left (desktop) or top (mobile)"
+    },
+    "empty_state": {
+      "url": "https://images.unsplash.com/photo-1570841398972-8aaa69ec72f2?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "alt": "Clean mug, ready for work",
+      "style": "Grayscale, low opacity"
+    }
+  },
+  "instructions_to_main_agent": {
+    "step_1": "Install fonts: Add imports to index.css for Playfair Display and Manrope.",
+    "step_2": "Configure Tailwind: Update tailwind.config.js with the 'Organic & Earthy' color palette and font families.",
+    "step_3": "Global Styles: Add a noise texture overlay div in App.js or index.html that covers the screen with pointer-events-none.",
+    "step_4": "Components: Customize Shadcn components. Remove default sharp corners if they exist, enforce rounded-xl.",
+    "step_5": "Layouts: Build the Dashboard using the Bento Grid strategy. Don't use standard columns.",
+    "step_6": "Charts: Use the custom chart_colors array for all Recharts instances.",
+    "step_7": "Chatbot: Design the chat interface to look like a 'Message Thread' on high-end paper. Bubble colors: secondary (bot) vs primary (user)."
+  },
+  "UNIVERSAL_GUIDELINES": {
+    "design_philosophy": "Avoid AI Slop. Make it feel tactile and expensive.",
+    "interactive_elements": "All buttons must have active scale effects.",
+    "spacing": "When in doubt, double the padding.",
+    "testing": "All interactive elements must have data-testid attributes."
+  }
+}
