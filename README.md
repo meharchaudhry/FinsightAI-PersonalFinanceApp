@@ -1,7 +1,7 @@
 FinsightAI — Personal Finance Management App
 A full-stack AI-powered personal finance platform that digitises receipts and provides personalised financial guidance through a conversational AI advisor.
 
-#Features
+# Features
 Receipt Digitisation — Upload receipt images; Gemini Vision AI automatically extracts vendor, items, prices, dates, and GST and categorises into 8 spending categories
 Financial Analytics — Total spending breakdowns, category-wise analysis, and monthly trend tracking
 AI Financial Advisor — Gemini-powered chatbot with full context of your receipt history, spending patterns, and active goals to give personalised recommendations
