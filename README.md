@@ -1,4 +1,4 @@
-FinsightAI — Personal Finance Management App
+# FinsightAI — Personal Finance Management App
 A full-stack AI-powered personal finance platform that digitises receipts and provides personalised financial guidance through a conversational AI advisor.
 
 # Features
